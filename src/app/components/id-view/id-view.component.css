@@ -1,0 +1,15 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://www.usco.edu.co/imagen-institucional/favicon.ico');
+    background-size: cover;
+  }
+  
+  .id-view {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+

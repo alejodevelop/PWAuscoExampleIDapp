@@ -7,6 +7,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 
 @NgModule({
     imports: [
@@ -15,7 +16,8 @@ import { MatIconModule } from '@angular/material/icon';
         MatToolbarModule,
         MatInputModule,
         MatSelectModule,
-        MatIconModule
+        MatIconModule,
+        MatBottomSheetModule
     ],
     exports: [
         MatButtonModule,
@@ -23,7 +25,8 @@ import { MatIconModule } from '@angular/material/icon';
         MatToolbarModule,
         MatInputModule,
         MatSelectModule,
-        MatIconModule
+        MatIconModule,
+        MatBottomSheetModule
     ]
 })
 

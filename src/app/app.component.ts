@@ -16,4 +16,5 @@ export class AppComponent {
       .catch(err => console.log('there was an error checking for update:' + err))
   }
 
+
 }
